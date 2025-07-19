@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+A decentralized application (DApp) built on Ethereum that allows users to send small ETH donations with their name and a message, simulating the purchase of “silver.”
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+🚀 Features
+	•	Connect MetaMask wallet
+	•	Send 0.001 ETH with a name & message
+	•	View all donation memos (on-chain data)
+	•	Fully decentralized smart contract backend
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+🧱 Built With
+	•	Solidity (Smart Contract)
+	•	Hardhat (Testing & Deployment)
+	•	React.js (Frontend UI)
+	•	Ethers.js (Blockchain interaction)
+	•	Sepolia Testnet + Alchemy
